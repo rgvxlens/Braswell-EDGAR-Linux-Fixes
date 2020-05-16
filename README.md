@@ -1,6 +1,6 @@
 # Fix sound on Braswell-based Chromebooks running Linux
 
-All thanks to [this post](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. Tested on Kubuntu 20.04 on an Acer Chromebook 14 CB3-431.
+All thanks to [this post](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. Tested on Kubuntu 20.04 on an Acer Chromebook 14 CB3-431. None of the other fixes worked for me, but this one did, so give it a go!
 
 ## Installation
 ### 1. Fixing Audio via Speakers
