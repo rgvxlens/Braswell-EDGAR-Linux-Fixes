@@ -4,7 +4,7 @@ All thanks to [this post](https://askubuntu.com/questions/974073/no-audio-on-ace
 
 ## Installation
 ### 1. Fixing Audio via Speakers
-1. Download the provided asound.state file.
+1. Download the provided asound.state file - [link](https://github.com/rgvxlens/EDGAR-Linux-Audio-Fix/blob/master/asound.state)
 2. Via Terminal,
 ```bash
 pgrep alsa
