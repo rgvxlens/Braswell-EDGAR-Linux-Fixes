@@ -51,6 +51,7 @@ If for some reason, the boot options/menu show a black screen and you're not abl
 sudo efibootmgr -O
 ```
 (capital O and not a zero)
+
 3. Reboot and you should be able to see the boot menu/options now.
 
 P.s. if you're able to see the EFI shell, the following command might also work (haven't tested):
