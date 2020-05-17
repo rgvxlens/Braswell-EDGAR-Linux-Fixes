@@ -1,6 +1,8 @@
-# Fix sound on Braswell-based Chromebooks running Linux
+#  Fixed for properly running Linux on Acer Chromebook 14 CB3-431 (Edgar // Braswell architecture)
+Most of these fixes worked properly for me under Kubuntu 20.04 and KDE neon 5.18 on an Acer Chromebook 14 CB3-431! (seems to be good on most Ubuntu-based distros)
 
-All thanks to [this post](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. Tested on Kubuntu 20.04 and KDE neon 5.18 on an Acer Chromebook 14 CB3-431. None of the other fixes worked for me, but this one did, so give it a go! (seems to be good on Ubuntu-based distros)
+## Audio
+All thanks to [this post](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. 
 
 ## Installation
 ### 1. Fixing Audio via Speakers
@@ -28,3 +30,14 @@ alsamixer
 3. Select your sound card (chtrt5650 for me)
 4. Press right arrow key once to move to Headphone Channel
 5. Press "m" to unmute it and the ESC key to save these changes.
+
+
+## Keyboard (multimedia media keys - top row)
+All thanks to [optio50](https://github.com/optio50/ChromeBook-Keyboard-xkb) for the fix. 
+Your basic keyboard keys should already be working good other than the exception of the top multimedia keys. To use the keys the same way they work under ChromeOS on your Ubuntu-based distro, follow the below steps.
+## Installation
+1. Navigate to /usr/share/X11 folder.
+2. Rename the "xkb" folder to "xkb.old"
+3. Download the xkb.zip file from [here] (https://github.com/rgvxlens/EDGAR-Linux-Audio-Fix/blob/master/xkb.zip) and unzip in the same folder i.e. /usr/share/X11.
+4. Reboot your laptop.
+5. In your distro's keyboard settings, you should have new settings for Chromebook (Google - Chromebooks).
