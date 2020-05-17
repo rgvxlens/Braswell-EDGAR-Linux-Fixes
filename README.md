@@ -39,6 +39,6 @@ Your basic keyboard keys should already be working good other than the exception
 ## Installation
 1. Navigate to /usr/share/X11 folder.
 2. Rename the "xkb" folder to "xkb.old"
-3. Download the xkb.zip file from [here] (https://github.com/rgvxlens/EDGAR-Linux-Audio-Fix/blob/master/xkb.zip) and unzip in the same folder i.e. /usr/share/X11.
+3. Download the xkb.zip file from [here](https://github.com/rgvxlens/EDGAR-Linux-Audio-Fix/blob/master/xkb.zip) and unzip in the same folder i.e. /usr/share/X11.
 4. Reboot your laptop.
 5. In your distro's keyboard settings, you should have new settings for Chromebook (Google - Chromebooks).
