@@ -1,4 +1,4 @@
-#  Fixed for properly running Linux on Acer Chromebook 14 CB3-431 (Edgar // Braswell architecture)
+#  Fixes for running Linux (Ubuntu-based distros) as a daily driver on Acer Chromebook 14 CB3-431 (Edgar // Braswell architecture)
 Most of these fixes worked properly for me under Kubuntu 20.04 and KDE neon 5.18 on an Acer Chromebook 14 CB3-431! (seems to be good on most Ubuntu-based distros)
 
 ## Audio
