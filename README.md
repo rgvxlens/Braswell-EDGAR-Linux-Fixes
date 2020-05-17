@@ -3,7 +3,7 @@
 Most of these fixes worked properly for me under Kubuntu 20.04 and KDE neon 5.18 on an Acer Chromebook 14 CB3-431! (seems to be good on most Ubuntu-based distros)
 
 ## Audio
-All thanks to [this post](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. 
+All thanks to [J. Starnes @ AskUbuntu](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. 
 
 ### Installation
 ### 1. Fixing Audio via Speakers
@@ -18,7 +18,7 @@ sudo alsa force-reload
 4. If working, use the following commands to make the changes permanent
 ```bash
 alsactl init
-sudo alsactl store --file /var/lib/alsa/asound.state
+sudo alsactl sxitore --file /var/lib/alsa/asound.state
 sudo alsa force-reload
 ```
 ### 2. Fixing Audio for Headphones
