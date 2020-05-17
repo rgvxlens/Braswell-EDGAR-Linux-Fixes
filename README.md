@@ -32,7 +32,7 @@ alsamixer
 5. Press "m" to unmute it and the ESC key to save these changes.
 
 
-## Keyboard (multimedia media keys - top row)
+## Keyboard (multimedia keys - top row)
 All thanks to [optio50](https://github.com/optio50/ChromeBook-Keyboard-xkb) for the fix. 
 Your basic keyboard keys should already be working good other than the exception of the top multimedia keys. To use the keys the same way they work under ChromeOS on your Ubuntu-based distro, follow the below steps.
 ## Installation
