@@ -44,7 +44,7 @@ Your basic keyboard keys should already be working good other than the exception
 5. In your distro's keyboard settings, you should have new settings for Chromebook (Google - Chromebooks).
 
 ## Fix for boot-menu not opening/boot options not displaying and only showing a black screen
-If for some reason, the boot options/menu show a black screen and you're not able to boot from the USB, try the following fix (big ups to MrChromebox for the [fix](https://www.reddit.com/r/coreboot/comments/fwl6wv/black_screen_when_selecting_boot_menu_or_boot/)). These should work on any, not just Ubuntu-based distros.
+If for some reason, the boot options/menu show a black screen and you're not able to boot from the USB, try the following fix (big ups to MrChromebox for the [fix](https://www.reddit.com/r/coreboot/comments/fwl6wv/black_screen_when_selecting_boot_menu_or_boot/)). These should work on any distro, not just Ubuntu-based.
 1. Boot to your installed linux distro 
 2. In Terminal, type the following command:
 ```bash
