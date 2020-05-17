@@ -54,7 +54,8 @@ sudo efibootmgr -O
 
 3. Reboot and you should be able to see the boot menu/options now.
 
-P.s. if you're able to see the EFI shell, the following command might also work (haven't tested):
+
+P.S. if you're able to see the EFI shell, the following command might also work (haven't tested):
 ```bash
 setvar BootOrder =
 ```
@@ -62,3 +63,4 @@ and then type
 ```bash
 exit
 ```
+Reboot and you should be able to see the boot menu/options now.
