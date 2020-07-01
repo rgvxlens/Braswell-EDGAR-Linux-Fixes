@@ -1,4 +1,6 @@
-# Fixes for running Linux (Ubuntu-based distros) as a daily driver on Acer Chromebook 14 CB3-431
+# Please refer to [this fork](https://github.com/rgvxsthi/Braswell-EDGAR-Linux-Fixes) which is a more updated version of this list. It is by the same author (i.e. me) but on a different account due to company restrictions. Thanks!
+
+## Fixes for running Linux (Ubuntu-based distros) as a daily driver on Acer Chromebook 14 CB3-431
 ## (Edgar // Braswell architecture)
 Most of these fixes worked properly for me under Kubuntu 20.04 and KDE neon 5.18 on an Acer Chromebook 14 CB3-431! (seems to be good on most Ubuntu-based distros)
 
